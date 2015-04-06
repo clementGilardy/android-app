@@ -6,14 +6,14 @@ package com.exemple.eternel.pojo;
 public class Posistion {
 
     String driver;
-    Float latitude;
-    Float longitude;
+    Double latitude;
+    Double longitude;
     public Posistion()
     {
 
     }
 
-    public Posistion(String driver, Float latitude, Float longitude)
+    public Posistion(String driver, Double latitude, Double longitude)
     {
         this.driver = driver;
         this.latitude = latitude;
@@ -28,19 +28,19 @@ public class Posistion {
         this.driver = driver;
     }
 
-    public Float getLatitude() {
+    public Double getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(Float latitude) {
+    public void setLatitude(Double latitude) {
         this.latitude = latitude;
     }
 
-    public Float getLongitude() {
+    public Double getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(Float longitude) {
+    public void setLongitude(Double longitude) {
         this.longitude = longitude;
     }
 

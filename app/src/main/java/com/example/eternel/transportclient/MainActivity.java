@@ -30,9 +30,7 @@ public class MainActivity extends ActionBarActivity {
             startActivity(localIntent);
         }
 
-        /*ClientGet client = new ClientGet("positions",1);
-        client.start();*/
-        ClientPost client = new ClientPost("positions");
+        ClientPost client = new ClientPost("positions",this);
         client.start();
     }
 }
