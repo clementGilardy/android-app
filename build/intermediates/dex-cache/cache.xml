@@ -9,6 +9,20 @@
         <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-f751cca9417beec69b22e88aab602e14ab933002.jar" />
     </item>
     <item
+        jar="/home/eternel/AndroidStudioProjects/TransportClient/app/libs/javax.ws.rs.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="354d6dcb7956de86ee70a35e8477c0061c8022c8">
+        <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/javax.ws.rs-b1161522f1917bc5133b06699510d6f69abc2aad.jar" />
+    </item>
+    <item
+        jar="/home/eternel/AndroidStudioProjects/TransportClient/app/libs/jackson-all-1.9.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dc82c7f77cfcfadce1721d5e4c5eed41fcea975f">
+        <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/jackson-all-1.9.7-1e20d49d4c4dde2ceeb43c3dc5bcbd30add9feaa.jar" />
+    </item>
+    <item
         jar="/home/eternel/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
         jumboMode="false"
         revision="21.1.2"

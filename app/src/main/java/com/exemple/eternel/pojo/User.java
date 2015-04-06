@@ -6,7 +6,19 @@ package com.exemple.eternel.pojo;
 public class User {
     String username;
     String email;
-    boolean status;
+    boolean staff;
+
+    public User()
+    {
+
+    }
+
+    public User(String username, String email, boolean staff)
+    {
+        this.username = username;
+        this.email = email;
+        this.staff = staff;
+    }
 
     public String getUsername() {
         return username;
@@ -24,11 +36,11 @@ public class User {
         this.email = email;
     }
 
-    public boolean isStatus() {
-        return status;
+    public boolean isStaff() {
+        return staff;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setStaff(boolean staff) {
+        this.staff = staff;
     }
 }

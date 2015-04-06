@@ -10,11 +10,20 @@ import java.net.URL;
  */
 public class ClientGet extends Thread{
 
+    private String methode;
+    private Integer count;
+
+    public ClientGet(String methode, Integer count)
+    {
+        this.methode = methode;
+        this.count = count;
+    }
+
     public void run()
     {
         try
         {
-            URL url = new URL("http://192.168.0.11:8080/users/1/");
+            URL url = new URL("http://192.168.0.11:8080/"+methode+"/"+count+"/");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
             conn.setRequestProperty("Accept","application/json");

@@ -1,22 +1,30 @@
 package com.exemple.eternel.pojo;
 
-import java.util.Date;
-
 /**
  * Created by eternel on 05/04/15.
  */
 public class Posistion {
 
-    Driver driver;
+    String driver;
     Float latitude;
     Float longitude;
-    Date time;
+    public Posistion()
+    {
 
-    public Driver getDriver() {
+    }
+
+    public Posistion(String driver, Float latitude, Float longitude)
+    {
+        this.driver = driver;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+
+    public String getDriver() {
         return driver;
     }
 
-    public void setDriver(Driver driver) {
+    public void setDriver(String driver) {
         this.driver = driver;
     }
 
@@ -36,11 +44,4 @@ public class Posistion {
         this.longitude = longitude;
     }
 
-    public Date getTime() {
-        return time;
-    }
-
-    public void setTime(Date time) {
-        this.time = time;
-    }
 }

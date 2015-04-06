@@ -6,8 +6,6 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
-import org.apache.http.impl.client.DefaultHttpClient;
-
 
 public class MainActivity extends ActionBarActivity {
     String SERVICE_ENDPOINT = "http://localhost:8000";
@@ -15,9 +13,9 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
-        DefaultHttpClient httpclient = new DefaultHttpClient();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         /**
          * Demande l'activation du GPS si il n'est pas activé
          */
@@ -32,9 +30,9 @@ public class MainActivity extends ActionBarActivity {
             startActivity(localIntent);
         }
 
-        ClientGet client = new ClientGet();
+        /*ClientGet client = new ClientGet("positions",1);
+        client.start();*/
+        ClientPost client = new ClientPost("positions");
         client.start();
-
-
     }
 }
