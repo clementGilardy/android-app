@@ -24,7 +24,7 @@ class GPSPosition extends TimerTask {
     String context = Context.LOCATION_SERVICE;
     Context mContext;
     String methode;
-    String driver = "http://192.168.0.11:8080/drivers/1/";
+    String driver = "1";
     Posistion position = new Posistion();
     ObjectMapper mapper = new ObjectMapper();
     String input = null;
@@ -40,7 +40,7 @@ class GPSPosition extends TimerTask {
     public void run() {
         try {
 
-            URL url = new URL("http://192.168.0.11:8080/" + methode + "/");
+            URL url = new URL("http://ingepute.audemar.fr:8000/" + methode + "/");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setDoOutput(true);
             conn.setRequestMethod("POST");

@@ -8,7 +8,7 @@ import android.support.v7.app.ActionBarActivity;
 
 
 public class MainActivity extends ActionBarActivity {
-    String SERVICE_ENDPOINT = "http://localhost:8000";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
