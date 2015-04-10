@@ -50,15 +50,31 @@ ADDED from AndroidManifest.xml:18:17
 	android:name
 		ADDED from AndroidManifest.xml:18:25
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:20:17
+ADDED from AndroidManifest.xml:19:17
 	android:name
-		ADDED from AndroidManifest.xml:20:27
+		ADDED from AndroidManifest.xml:19:27
 activity#com.example.eternel.transportclient.PermissionGps
-ADDED from AndroidManifest.xml:23:9
+ADDED from AndroidManifest.xml:22:9
 	android:label
-		ADDED from AndroidManifest.xml:25:13
-	android:name
 		ADDED from AndroidManifest.xml:24:13
+	android:name
+		ADDED from AndroidManifest.xml:23:13
+service#com.example.eternel.transportclient.GPSService
+ADDED from AndroidManifest.xml:28:5
+	android:label
+		ADDED from AndroidManifest.xml:29:33
+	android:process
+		ADDED from AndroidManifest.xml:30:9
+	android:exported
+		ADDED from AndroidManifest.xml:29:9
+	android:name
+		ADDED from AndroidManifest.xml:28:14
+intent-filter#com.example.eternel.transportclient.GPSService
+ADDED from AndroidManifest.xml:31:9
+action#com.example.eternel.transportclient.GPSService
+ADDED from AndroidManifest.xml:31:24
+	android:name
+		ADDED from AndroidManifest.xml:31:32
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:appcompat-v7:22.0.0:20:5

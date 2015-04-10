@@ -9,13 +9,6 @@
         <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-f751cca9417beec69b22e88aab602e14ab933002.jar" />
     </item>
     <item
-        jar="/home/eternel/AndroidStudioProjects/TransportClient/app/libs/javax.ws.rs.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="354d6dcb7956de86ee70a35e8477c0061c8022c8">
-        <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/javax.ws.rs-b1161522f1917bc5133b06699510d6f69abc2aad.jar" />
-    </item>
-    <item
         jar="/home/eternel/AndroidStudioProjects/TransportClient/app/libs/jackson-all-1.9.7.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -30,18 +23,18 @@
         <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/okio-1.0.0-76ce93aabdcfc6e57be40888af0b25bca3c55c75.jar" />
     </item>
     <item
-        jar="/home/eternel/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
-        <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-a2d6113db3f8bb45f6613376e6cee575bc73b2c2.jar" />
-    </item>
-    <item
         jar="/home/eternel/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="afe8399d352713b66e597e9670c741d1e60ae923">
         <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-3e4a801090c159db9a5fc9b911f40ace5d6ffd6c.jar" />
+    </item>
+    <item
+        jar="/home/eternel/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-a2d6113db3f8bb45f6613376e6cee575bc73b2c2.jar" />
     </item>
     <item
         jar="/home/eternel/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
@@ -63,6 +56,13 @@
         revision="21.1.2"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
         <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/classes-5d2e0b4a006e91b4ee6ff975c05846187d05096a.jar" />
+    </item>
+    <item
+        jar="/home/eternel/AndroidStudioProjects/TransportClient/app/libs/javax.ws.rs.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="354d6dcb7956de86ee70a35e8477c0061c8022c8">
+        <dex dex="/home/eternel/AndroidStudioProjects/TransportClient/app/build/intermediates/pre-dexed/debug/javax.ws.rs-b1161522f1917bc5133b06699510d6f69abc2aad.jar" />
     </item>
     <item
         jar="/home/eternel/AndroidStudioProjects/TransportClient/app/libs/resteasy-jackson-provider.jar"
